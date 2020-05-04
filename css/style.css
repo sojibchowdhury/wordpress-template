@@ -9,7 +9,7 @@ body{
 .hero{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('image.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/image.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -260,7 +260,7 @@ a:visited{
 .box1{
     width: 380px;
     height: 480px;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('boy1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('../img/boy1.jpg');
     background-size: cover;
     position: relative;
     top: 8%;
@@ -275,7 +275,7 @@ a:visited{
 .box2{
     width: 380px;
     height: 480px;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('girl2.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('../img/girl2.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -290,7 +290,7 @@ a:visited{
 .box3{
     width: 380px;
     height: 480px;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('boy4.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/boy4.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -426,7 +426,7 @@ a:visited{
     float: left;
 }
 .icon1 ul li a{
-    background-image: url('imge%20speite.JPG');
+    background-image: url('../img/imge%20speite.JPG');
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 53px;
