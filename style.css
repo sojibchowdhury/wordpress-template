@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+body{
+    padding-bottom: 1500px;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.container{
+    padding: 15px 16px;
+}
+.header-area{
+    width: 97%;
+    position: absolute;
+    
+}
+.logo{
+    width: 21%;
+    float: left;
+    position: relative;
+}
+.logo img{
+    width: 30%;
+    float: left;
+    cursor: pointer;
+}
+.logo h2{
+    float: left;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: 16px;
+    cursor: pointer;
+}
+.menu-bar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+    margin-right:250px;
+    margin-top: 31px;
+}
+.menu-bar ul li{
+    float: left;
+    list-style-type: none;
+    
+}
+.menu-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    transition: 1s;
+    
+}
+.menu-bar ul li:last-child a{
+    margin-right: 0;
+}
+.a:hover{
+    background: red;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.b:hover{
+    background: yellow;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.c:hover{
+    background: lime;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.d:hover{
+    background: blue;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.e:hover{
+    background: #96AC53;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.f:hover{
+    background: black;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px; 
+}
+.a:active{
+    background: blue;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+a:visited{
+   color:blue;
+}
+.dropdown-content{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    font-size: 14px;
+}
+.dropdown-content .drop{
+    display: block;
+    color: white;
+    transition: 1s;
+    transition-timing-function: step-start;
+    margin-bottom: 10px;
+}
+.dropdown-content:hover a{
+    background: black;
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid orange;
+    border-radius: 20px; 
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content1{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    font-size: 14px;
+}
+.dropdown-content1 .drop1{
+    display: block;
+    color: white;
+    transition: 3s;
+    transition-timing-function: step-start;
+    margin-bottom: 10px;
+}
+.dropdown-content1:hover a{
+    background: black;
+    padding: 6px 12px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid orange;
+    border-radius: 20px; 
+    
+}
+.dropdown1:hover .dropdown-content1{
+    display: block;
+}
+.login-area .material-icons{
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: 60px;
+    font-size: 45px;
+    color: white;
+    top: 20px;
+    cursor: pointer;
+}
+.login-area h3{
+    text-align: right;
+    position: relative;
+    top: 45px;
+    right: 34px;
+}
+.login-area h3 a{
+    color: #1282d6;
+}
+.login-area h3 a:hover{
+    color: lime;
+}
+.middle-area .m{
+   display: block;
+   text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 150px;
+    color: white;
+}
+.middle-area h3{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-weight: 400;
+}
+.getstart-btn{
+    width: 25%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    background: #1282d6;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-top: 60px;
+    transition: 1s;
+    
+}
+.getstart-btn:hover{
+    background:aqua 
+    
+}
+/*--end first section--*/
+
+.bottom-section{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    top:657px;
+    position: absolute;
+    
+}
+.bottom-section h2{
+    text-align: center;
+    width: 240px;
+    margin: auto;
+    font-size: 45px;
+    margin-top: 10px;
+    border: 4px solid red;
+    border-radius: 20px;
+    transition: 1s;
+}
+.bottom-section h2:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+.box1{
+    width: 380px;
+    height: 480px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('boy1.jpg');
+    background-size: cover;
+    position: relative;
+    top: 8%;
+    left: 52px;
+    float: left;
+    border: 10px solid orange;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0;
+    box-sizing: border-box;
+    
+}
+.box2{
+    width: 380px;
+    height: 480px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('girl2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 8%;
+    left: 104px;
+    float: left;
+    border: 10px solid orange;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0;
+    box-sizing: border-box;
+}
+.box3{
+    width: 380px;
+    height: 480px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('boy4.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 8%;
+    left: 156px;
+    float: left;
+    border: 10px solid orange;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0;
+    box-sizing: border-box; 
+}
+.hover-content1{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 360px;
+    border-radius: 20px;
+    display: none;
+    transition: 5s
+}
+.hover-content1 h3{
+    text-align: center;
+    color: white;
+    margin-top: 101px;
+    font-size: 30px;
+    color: orange;
+}
+.hover-content1 p{
+    margin-top: 100px;
+    color: white;
+    text-align: justify;
+}
+.box1:hover .hover-content1{
+    display: block;
+    cursor: pointer;
+}
+.hover-content2{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 360px;
+    border-radius: 20px;
+    display: none;
+    transition: 5s
+}
+.hover-content2 h3{
+    text-align: center;
+    color: white;
+    margin-top: 101px;
+    font-size: 30px;
+    color: orange;
+}
+.hover-content2 p{
+    margin-top: 100px;
+    color: white;
+    text-align: justify;
+}
+.box2:hover .hover-content2{
+    display: block;
+    cursor: pointer;
+}
+.hover-content3{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 360px;
+    border-radius: 20px;
+    display: none;
+}
+.hover-content3 h3{
+    text-align: center;
+    color: white;
+    margin-top: 101px;
+    font-size: 30px;
+    color: orange;
+    
+}
+.hover-content3 p{
+    margin-top: 100px;
+    color: white;
+    text-align: justify;
+}
+.box3:hover .hover-content3{
+    display: block;
+    cursor: pointer;
+}
+/*--end middle-area--*/
+.footer-area{
+    width: 100%;
+    height: 40%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    position: absolute;
+    top: 1314px;
+}
+.footer-area h2{
+    text-align: center;
+    width: 240px;
+    margin: auto;
+    font-size: 45px;
+    margin-top: 10px;
+    border: 4px solid red;
+    border-radius: 20px;
+    transition: 1s;
+}
+.footer-area h2:hover{
+    background: lime;
+    color: white;
+    cursor: pointer;
+}
+.location h4{
+    width: 69px;
+    margin-left: 200px;
+    font-size: 16px;
+    color: darkblue;
+    margin-top: 30px;
+}
+.location h4:hover{
+    color: firebrick;
+    cursor: pointer;
+}
+.location address{
+    width: 470px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 30px;
+}
+
+.icon1 ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 555px;
+    position: relative;
+}
+.icon1 ul li{
+    list-style-type: none;
+    margin-right: 10px;
+    float: left;
+}
+.icon1 ul li a{
+    background-image: url('imge%20speite.JPG');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 53px;
+    height: 53px;
+    display: block;
+    border-radius: 50%;
+    transition: 1s;
+ 
+}
+.icon1 ul li:nth-child(1) a{
+    background-position: 0 -102px
+}
+.icon1 ul li:hover:nth-child(1) a{
+    background-position: 0 -200px
+}
+.icon1 ul li:nth-child(2) a{
+    background-position:-62px -102px;
+}
+.icon1 ul li:hover:nth-child(2) a{
+    background-position:-62px -200px;
+}
+.icon1 ul li:nth-child(3) a{
+    background-position:-123px -103px;
+}
+.icon1 ul li:hover:nth-child(3) a{
+    background-position:-123px -200px;
+}
+.icon1 ul li:nth-child(4) a{
+    background-position:-183px -102px;
+}
+.icon1 ul li:hover:nth-child(4) a{
+    background-position:-183px -200px;
+}
+.icons h4{
+    width: 140px;
+    margin: auto;
+    text-align: center;
+    margin-top: -65px;
+    font-size: 16px;
+    color: darkblue;
+    
+}
+.icon1 h4:hover{
+    color: firebrick !important;
+    cursor: pointer;
+}
+.about h4{
+    width: 140px;
+    margin: inherit;
+    margin-left: 1050px;
+    text-align: center;
+    margin-top: -29px;
+    font-size: 16px;
+    color: darkblue;
+    
+}
+.about h4:hover{
+    color: firebrick !important;
+    cursor: pointer;
+}
+.about p{
+    width: 300px;
+    margin-left: 980px;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: justify;
+}
+.copyright{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 14px;
+    color: lightgray;
+}

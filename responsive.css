@@ -1,0 +1,61 @@
+@media screen and (max-width:980px){
+    .logo img{
+        margin-left: 60px;
+        width: 50%;
+    }
+    .logo h2{
+        margin-top: -15px;
+    }
+    .menu-bar{
+        margin-top: -10px;
+        margin-left:170px; 
+    }
+    .bottom-section{
+        margin-top: -30px;
+        height: 279.4%
+    }
+    .bottom-section h2{
+        margin-top: 50px;
+    }
+    .bottom-section h2:last-child{
+        margin-top: 0;
+    }
+    .bottom-section .box1{
+        margin-left: 85px;
+        margin-top: -50px
+    }
+    .bottom-section .box2{
+        margin-top: 50px;
+        margin-left: 33px
+    }
+    .bottom-section .box3{
+        margin-left: -18px;
+        margin-top: 50px;
+    }
+    .footer-area{
+        margin-top: 1112px;
+        height: 63%
+    }
+    .footer-area .location h4{
+        margin-left: 160px;
+    }
+    .footer-area .location address{
+        margin-left: -40px;
+        margin-top:
+    }
+    .footer-area .icons h4{
+        margin-right: 50px;
+    }
+    .footer-area .icon1{
+        margin-left: -70px;
+    }
+    .footer-area .about{
+        margin-left: -935px;
+    }
+    .footer-area .about h4{
+        margin-top: 0;
+    }
+    .footer-area .copyright{
+        margin-top: 30px
+    }
+}
